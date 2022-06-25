@@ -10,4 +10,3 @@ class Square:
             function to initialize square with it's size
         """
         self.__size = size
-        
