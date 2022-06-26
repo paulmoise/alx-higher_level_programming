@@ -3,31 +3,17 @@
 
 
 class Square:
-    """ Square class with size attribute"""
+    """ Class to represent square"""
 
     def __init__(self, size=0, position=(0, 0)):
-        """
-            Function to initialize square with it's size
-        """
-        if type(size) == int:
-            if size < 0:
-                raise ValueError("size must be >= 0")
-            else:
-                self.__size = size
-                self.__position = position
-        else:
-            raise TypeError("size must be an integer")
+        """Function to initialize optionnaly with size or position
 
-    def area(self):
-        """ Function that returns the current square area
-
-            Args:
-                self: the active instance of the class
-
-            Returns:
-                 int: return the area of the square
+        Args:
+            size (int) : size of the square
+            position (int, int) : the position of the square
         """
-        return (self.__size ** 2)
+        self.__position = position
+        self.__size = size
 
     @property
     def size(self):
@@ -37,7 +23,7 @@ class Square:
                  self: the active instance of the class
 
             Returns:
-                    int: size of the area
+                    size (int): size of the area
         """
         return self.__size
 
@@ -47,29 +33,16 @@ class Square:
 
             Args:
                 self: the active instance of the class
-                value: the value to be set
-
-            Returns:
-                    nothing
+                value (int) : the value of the size to be set
         """
 
-        if type(value) == int:
+        if isinstance(value, int):
             if value < 0:
                 raise ValueError("size must be >= 0")
             else:
                 self.__size = value
         else:
             raise TypeError("size must be an integer")
-
-    def my_print(self):
-        if self.__size == 0:
-            print()
-        else:
-            for i in range(self.__size):
-                print(" "*self.__position[0], end="")
-                for j in range(self.__size):
-                    print('#', end="")
-                print()
 
     @property
     def position(self):
@@ -79,7 +52,34 @@ class Square:
     @position.setter
     def position(self, value):
         """ Setter for the position property """
-        if type(value) == tuple and value > (0, 0):
+        if isinstance(value, tuple) and\
+                len(value) == 2 and\
+                all(isinstance(el, int) for el in value) and\
+                value > (0, 0):
             self.__position = value
         else:
             raise TypeError("position must be a tuple of 2 positive integers")
+
+    def area(self):
+        """ Function that returns the current square area
+
+            Args:
+                self (Square) : the active instance of the class
+
+            Returns:
+                 area (int): return the area of the square
+        """
+        return (self.__size ** 2)
+
+    def my_print(self):
+        if self.__size == 0:
+            print()
+        else:
+            for i in range(self.__position[1]):
+                print()
+
+            for i in range(self.__size):
+                print(" "*self.__position[0], end="")
+                for j in range(self.__size):
+                    print('#', end="")
+                print()
