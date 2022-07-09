@@ -3,6 +3,8 @@
 
 class Rectangle:
     """
-    Rectangle class
+    Class Rectangle
     """
-    pass
+
+    def __init__(self):
+        pass
