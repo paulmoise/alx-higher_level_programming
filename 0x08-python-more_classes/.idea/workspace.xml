@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="34f895ec-dd7d-4fc6-86f8-438e65e1940f" name="Changes" comment="N queens" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BhJ5YXy3b8LGyUvCVvR0ZKWNjZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/enigmatik/ALX_SE/alx-higher_level_programming/0x01-python-if_else_loops_functions",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "settings.editor.selected.configurable": "vcs.Git"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="34f895ec-dd7d-4fc6-86f8-438e65e1940f" name="Changes" comment="" />
+      <created>1657352202604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1657352202604</updated>
+      <workItem from="1657352206216" duration="14164000" />
+    </task>
+    <task id="LOCAL-00001" summary="Class Rectangle that defines a rectangle by: (based on 0-rectangle.py)">
+      <created>1657354827481</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1657354827481</updated>
+    </task>
+    <task id="LOCAL-00002" summary="minor bug fixed">
+      <created>1657354995737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1657354995737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="minor bug fixed again">
+      <created>1657355421392</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1657355421392</updated>
+    </task>
+    <task id="LOCAL-00004" summary="area and perimeter of the rectangle">
+      <created>1657358639869</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657358639869</updated>
+    </task>
+    <task id="LOCAL-00005" summary="String representation">
+      <created>1657360963003</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1657360963003</updated>
+    </task>
+    <task id="LOCAL-00006" summary=" Eval is magic">
+      <created>1657362392644</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1657362392644</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Detect instance deletion">
+      <created>1657362830332</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657362830332</updated>
+    </task>
+    <task id="LOCAL-00008" summary="How many instances">
+      <created>1657364142535</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657364142535</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Change representation">
+      <created>1657366377664</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1657366377664</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Compare rectangles">
+      <created>1657368767108</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1657368767108</updated>
+    </task>
+    <task id="LOCAL-00011" summary="A square is a rectangle">
+      <created>1657371250109</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657371250109</updated>
+    </task>
+    <task id="LOCAL-00012" summary="N queens">
+      <created>1657394902690</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1657394902690</updated>
+    </task>
+    <task id="LOCAL-00013" summary="N queens">
+      <created>1657394954785</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1657394954785</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Class Rectangle that defines a rectangle by: (based on 0-rectangle.py)" />
+    <MESSAGE value="minor bug fixed" />
+    <MESSAGE value="minor bug fixed again" />
+    <MESSAGE value="area and perimeter of the rectangle" />
+    <MESSAGE value="String representation" />
+    <MESSAGE value=" Eval is magic" />
+    <MESSAGE value="Detect instance deletion" />
+    <MESSAGE value="How many instances" />
+    <MESSAGE value="Change representation" />
+    <MESSAGE value="Compare rectangles" />
+    <MESSAGE value="A square is a rectangle" />
+    <MESSAGE value="N queens" />
+    <option name="LAST_COMMIT_MESSAGE" value="N queens" />
+  </component>
+</project>
